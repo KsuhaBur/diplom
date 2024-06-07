@@ -1,0 +1,18 @@
+
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.list {
+    line-height: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+.list-mini li {
+    list-style: circle;
+    margin-left: 3rem;
+}
