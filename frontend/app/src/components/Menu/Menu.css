@@ -1,0 +1,38 @@
+.navigation-bar {
+    display: flex;
+    height: 100vh;
+    /* flex-direction: column; */
+}
+
+.sidenav {
+    width: 200px;
+    height: 100vh;
+    /* background-color: #136a13; */
+    color: black;
+    box-sizing: border-box;
+    position: fixed;
+    position: relative;
+    display: none;
+}
+
+.active {
+display: block;
+
+}
+
+
+
+.sidenav-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+.sidenav-link:hover {
+    background-color: grey;
+}
+

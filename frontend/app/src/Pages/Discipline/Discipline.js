@@ -3,7 +3,7 @@
 // import Component2 from './Component2';
 // import Component3 from './Component3';
 
-// const App = () => {
+// const Discipline = () => {
 //   const [currentComponent, setCurrentComponent] = useState(null);
 
 //   const handleButton1Click = () => {
@@ -30,4 +30,17 @@
 //   );
 // };
 
-// export default App;
+// export default Discipline;
+
+
+import React from 'react';
+import './Discipline.css';
+
+export default function Discilpline() {
+  return (
+    <div className=''>
+      <div>Discilpline</div>
+    </div>
+    
+  )
+}

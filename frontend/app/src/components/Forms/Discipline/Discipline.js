@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
+import './Discipline.css';
 
-export class Discipline extends Component {
-  render() {
-    return (
-      <div>Discipline</div>
-    )
-  }
+export default function Discipline() {
+  return (
+
+    <div className='dis'>Discipline</div>
+  )
 }
-
-export default Discipline

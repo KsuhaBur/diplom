@@ -7,7 +7,7 @@ const Buttons = ({ components, activeComponentIndex, handleClick }) => {
   return (
     <div className="button-list">
       {components.map((component, index) => (
-        <button
+        <button className='btn'
           key={index}
           className={activeComponentIndex === index ? 'active' : ''}
           onClick={() => handleClick(index)}

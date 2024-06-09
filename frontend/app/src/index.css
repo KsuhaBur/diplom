@@ -88,12 +88,13 @@ legend {
 }
 
 .container {
-    max-width: 80%;
+    min-width: 80%;
     background-color: white;
     margin: 0 auto;
     margin-top: 5%;
     border-radius: 7px;
     padding: 2%;
+    margin-bottom: 3%;
 }
 
 body {
