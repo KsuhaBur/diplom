@@ -20,8 +20,6 @@ a:hover  {
     text-decoration: none;
 }
 
-/* Common */
-
 aside, nav, footer, header, section, main {
 	display: block;
 }
@@ -88,13 +86,15 @@ legend {
 }
 
 .container {
-    min-width: 80%;
+    width: 90%;
     background-color: white;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-right: 2%;
     border-radius: 7px;
-    padding: 2%;
-    margin-bottom: 3%;
+    /* padding: 2%; */
+    margin-bottom: 2rem;
+    /* height: 100%; */
 }
 
 body {

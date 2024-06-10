@@ -11,6 +11,7 @@ import EduPlan from '../../Pages/EduPlan/EduPlan';
 import OP from '../../Pages/OP/OP';
 import { useState } from 'react';
 import RPD from '../../Pages/RPD/RPD';
+import Page_RPD from '../../Pages/RPD/Page_RPD';
 
 
 const Menu = () =>  {
@@ -40,6 +41,9 @@ const Menu = () =>  {
                     <li>
                         <Link className='sidenav-link' to='/ops'>Образовательные программы</Link>
                     </li>
+                    <li>
+                        <Link className='sidenav-link' to='/test_link'>Тестовый рпд</Link>
+                    </li>
                 </ul>
             </nav>
             </div>
@@ -50,6 +54,7 @@ const Menu = () =>  {
           <Route path="/" element={<RPD />} />
           <Route path="/eduPlans" element={<EduPlan />} />
           <Route path="/ops" element={<OP />} />
+          <Route path="/test_link" element={<Page_RPD />}>Тест</Route>
         </Routes>
         </div>
         
